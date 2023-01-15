@@ -13,7 +13,7 @@ function hamburger(){
 
 return (
     <nav>
-    <ul className='px-10 flex gap-6 bg-slate-400 font-serif h-12 items-center justify-between'>
+    <ul className='px-10 flex gap-6 bg-blue-400 font-serif h-12 items-center justify-between'>
       <li className='hidden md:block   rounded-xl h-8 w-16 text-center items-center text-2xl'><b>{props.title}</b></li>
       <div className='md:hidden' onClick={hamburger}>
         <p className='bg-black w-6 h-1 rounded-lg m-1'></p>
