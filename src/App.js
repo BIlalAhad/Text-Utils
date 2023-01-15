@@ -7,7 +7,7 @@ function App() {
   return (
    <>
     <Navbar title='logo' />
-    <Textform heading='Enter Text To Analyze '/>
+    <Textform heading='Enter Text  '/>
    </>)
 }
 
