@@ -20,7 +20,7 @@ return (
         <p className='bg-black w-6 h-1 rounded-lg m-1'></p>
         <p className='bg-black w-6 h-1 rounded-lg m-1'></p>
       </div>
-     <button id='mainnav' className='absolute md:static w-full hidden md:gap-6 mt-36 md:mt-0 text-center sm:content-end  md:w-1/3 bg-slate-400 md:flex mainnav -translate-x-10'>
+     <button id='mainnav' className='absolute md:static w-full hidden md:gap-6 mt-36 md:mt-0 text-center sm:content-end  md:w-1/3 bg-blue-400 md:flex mainnav -translate-x-10'>
      <li className='hover:font-bold hover:cursor-pointer '>home</li>
       <li className='hover:font-bold hover:cursor-pointer '>about</li>
       <li className='hover:font-bold hover:cursor-pointer '>contact</li>
