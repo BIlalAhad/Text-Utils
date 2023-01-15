@@ -51,10 +51,10 @@ export default function Textform(props) {
               <h1 className='font-bold w-full text-center my-5 text-lg font-serif '>{props.heading}</h1>
               <textarea className='text-gray-800  border border-black block mx-auto   w-full  bg-slate-50' id="select" onChange={handleonchange} value={text} rows='8' placeholder="" /><br />
               <div className="md:flex">
-              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 '  onClick={handleuppercase}>convert to Upper-case</button>
-              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 '  onClick={cleartext}>Clear text</button>
-              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 '  onClick={handlelowercase}>convert to Lower-case</button>
-              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 '  onClick={selection}>copy</button>
+              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 m-2 '  onClick={handleuppercase}>convert to Upper-case</button>
+              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 m-2 '  onClick={cleartext}>Clear text</button>
+              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 m-2 '  onClick={handlelowercase}>convert to Lower-case</button>
+              <button className=' block mx-auto border border-black bg-blue-400 text-white w-60 rounded-md p-2 hover:brightness-75 m-2 '  onClick={selection}>copy</button>
             </div>
         </div>
         <p className="text-center mt-12 bg-white max-w-xs mx-auto text-black">{text.length} alpabhets</p>
